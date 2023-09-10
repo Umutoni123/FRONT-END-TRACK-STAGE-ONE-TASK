@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  place-content: center;
+  background-color: #f8f8f8;
+  border: 1px solid black;
+}
+
+.name, .my_picture {
+   margin: 0 auto;
+   color: rgb(88, 88, 208);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.my_picture {
+  border-radius: 50%;
+  padding: 12px 0;
+  width: 40%;
+}
+
+.details_holder {
+  display: grid;
+  justify-content: center;
+  text-align: left;
+}
+
+.time_holder, .track_holder, .week__day {
+   display: flex;
+   justify-items: baseline;
+   gap: 4px;
+}
+
+.githubLink {
+  padding-top: 6px;
+  text-decoration: underline;
+  font-weight: 600;
+  color: black;
+}

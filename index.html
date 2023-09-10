@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Stage One Page Creation</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="name" data-testid="slackUserName">UMUTONI Noella</h1>
+        <img src="myimage.jpg" alt="UMUTONI Noella" data-testid="slackDisplayImage"  class="my_picture"/>
+        <div class="details_holder">
+            <div class="week__day">
+                <p>Day of the week: </p>
+                <h3 data-testid="currentDayOfTheWeek" class="day"></h3>
+            </div>
+            <div class="time_holder">
+                <p>UTC Time: </p>
+                <h4 class="time" data-testid="currentUTCTime"></h4>
+            </div>
+            <div class="track_holder">
+                <p>Track: </p>
+                <h4 data-testid="myTrack">Frontend</h4>
+            </div>
+            <a target="_blank" class="githubLink" href="https://github.com/Umutoni123" data-testid=“githubURL”>Github Link</a>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
